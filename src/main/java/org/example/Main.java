@@ -27,5 +27,8 @@ public class Main {
     studentNameMap.put(9, "田口");
     studentNameMap.put(10, "山田");
 
+    studentNameMap.entrySet().removeIf(entry -> entry.getKey() % 2 == 0);
+    System.out.println(studentNameMap);
+
   }
 }
