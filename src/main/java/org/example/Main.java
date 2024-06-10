@@ -1,6 +1,8 @@
 package org.example;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Main {
 
@@ -12,5 +14,18 @@ public class Main {
         System.out.println(studentName);
       }
     }
+
+    Map<Integer, String> studentNameMap = new HashMap<>();
+    studentNameMap.put(1, "佐藤");
+    studentNameMap.put(2, "鈴木");
+    studentNameMap.put(3, "七五三掛");
+    studentNameMap.put(4, "田中");
+    studentNameMap.put(5, "田母神");
+    studentNameMap.put(6, "小鳥遊");
+    studentNameMap.put(7, "山口");
+    studentNameMap.put(8, "伊藤");
+    studentNameMap.put(9, "田口");
+    studentNameMap.put(10, "山田");
+
   }
 }
